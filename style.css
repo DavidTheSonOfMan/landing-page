@@ -1,0 +1,179 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block1{
+    margin-right: 40px;
+}
+
+.block2{
+    margin-right: 200px;
+}
+.block2 .img{
+    width: 40px;
+}
+
+.block3 h2{
+    padding: 10px 15px;
+   font-size: 15px;
+   border: 2px solid black;
+   border-radius: 30px;
+   margin-right: 20px;
+   padding-left: 20px;
+   transition: 1s;
+}
+
+
+.block3 h2:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+   padding-left: 25px;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.container{
+    background-image: url(./img.jpg);
+    /* width: 100vw; */
+    /* height: calc(663px - 70px); */
+    height: 560px;
+    width: 1310px;
+    margin-left: 17px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 90px;
+   /* border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px; */
+}
+
+.roll1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* padding-top: 40px; */
+}  
+
+.roll1 h1{
+    font-size: 80px;
+}
+.roll1 p{
+    font-size: 20px;
+}
+.roll1 input{
+    outline: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(29, 135, 66);
+    color: white;
+    transition: 1s
+}
+
+.roll1 input:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.roll2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.roll2 input{
+    border: none;
+    padding: 10px 20px;
+    outline: white;
+    color: rgba(126, 130, 133, 0.8);
+}
+.roll2 button{
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(43, 40, 40, 0.654);
+    padding: 10px 10px;
+}
+.roll2 span {
+    font-size: 30px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
