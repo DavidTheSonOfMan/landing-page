@@ -10,6 +10,8 @@
 
 .bd-grid{
     max-width: 95%;
+    position: relative;
+    left: 40px;
 }
 .section{
     width: 100%;
@@ -17,6 +19,18 @@
     background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
+}
+
+.hambugger{
+    display: none;
+    color: black;
+}
+.hambugger a{
+    color: black;
+    transition: 1s;
+}
+.hambugger a:hover{
+    color: rgb(7, 130, 30);
 }
 .header-container{
     background-color:transparent;
@@ -79,18 +93,13 @@
 
 .container{
     background-image: url(./img.jpg);
-    /* width: 100vw; */
-    /* height: calc(663px - 70px); */
     height: 560px;
-    width: 1310px;
-    /* margin-left: 65px; */
+    width: 100%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 90px;
-   /* border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px; */
 }
 
 .roll1{
@@ -100,7 +109,6 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    /* padding-top: 40px; */
 }  
 
 .roll1 h1{
@@ -113,7 +121,6 @@
     outline: none;
     font-size: 20px;
     padding: 10px 15px;
-    /* border: 2px solid black; */
     border-radius: 30px;
     border: none;
     background-color: rgb(29, 135, 66);
@@ -157,6 +164,229 @@
 
 
 
+@media screen and (min-width:1440px) {
+
+.container{
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+}
+
+.bd-grid{
+    max-width: 98%;
+    position: relative;
+    left: 850px;
+}
+
+
+
+    
+}
+@media screen and (min-width:1024px) {
+
+
+
+    
+}
+@media screen and (min-width:768px) {
+
+    .container{
+            height: 410px;
+    }
+    .bd-grid{
+        left: 15px;
+    }
+    /* .hambugger a{
+        display: none;
+    }
+    .block1, .nav-item, .nav-link{
+        display:block;
+    } */
+
+    .header{
+        width: 100%;
+    }
+   .nav-item{
+    gap: 10px;
+    list-style: none;
+   padding-left: 10px;
+   } 
+   .block3 h2{
+    padding: 8px 10px;
+   font-size: 10px;
+   }
+   .block2{
+    margin-right: 100px;
+}
+
+.roll1 h1{
+    font-size: 50px;
+}
+.roll1 p{
+    font-size: 10px;
+}
+.roll1 input{
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+.roll2 input{
+    padding: 8px 15px;
+}
+.roll2 button{
+    padding: 8px 8px;
+}
+.roll2 span {
+    font-size: 20px;
+}
+
+}
+@media screen and (max-width:425px) {
+
+    .bd-grid{
+        left: 9px;
+    }
+
+    .container{
+        height: 400px;
+}
+
+    .hambugger{
+        display: block;
+        font-size: 30px;
+        color: black;
+    }
+    .block1{
+        display:none;
+    }
+    .roll1 h1{
+        font-size: 40px;
+    }
+    .roll1 p{
+        font-size: 13px;
+    }
+    .roll1 input{
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+    .roll2{
+        width: 280px;
+        height: 40px;
+    }
+    .roll2 input{
+        padding: 6px 9px;
+    }
+    .roll2 button{
+        padding: 6px 6px;
+    }
+    .roll2 span {
+        font-size: 15px;
+    }
+    
+    .block2{
+        margin-right: 50px;
+    }
+    .block3 h2{
+        padding: 8px 7px;
+       font-size: 10px;
+       }
+}
+@media screen and (max-width:375px) {
+
+    .bd-grid{
+        left: 9px;
+    }
+    .container{
+        height: 400px;
+}
+.hambugger{
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+.block1{
+    display:none;
+}
+    .roll1 h1{
+        font-size: 40px;
+    }
+    .roll1 p{
+        font-size: 13px;
+    }
+    .roll1 input{
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+    .roll2{
+        width: 280px;
+        height: 40px;
+    }
+    .roll2 input{
+        padding: 6px 9px;
+    }
+    .roll2 button{
+        padding: 6px 6px;
+    }
+    .roll2 span {
+        font-size: 15px;
+    }
+   
+    .block2{
+        margin-right: 50px;
+    }
+    .block3 h2{
+        padding: 8px 7px;
+       font-size: 10px;
+       }
+}
+@media screen and (max-width:320px) {
+
+    .bd-grid{
+        left: 9px;
+    }
+    .container{
+        height: 400px;
+}
+.hambugger{
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+.block1{
+    display:none;
+}
+    .roll1 h1{
+        font-size: 40px;
+    }
+    .roll1 p{
+        font-size: 13px;
+    }
+    .roll1 input{
+        font-size: 10px;
+        padding: 5px 6px;
+    }
+    .roll2{
+        width: 280px;
+        height: 40px;
+    }
+    .roll2 input{
+        padding: 6px 9px;
+    }
+    .roll2 button{
+        padding: 6px 6px;
+    }
+    .roll2 span {
+        font-size: 15px;
+    }
+   
+    .block2{
+        margin-right: 50px;
+    }
+    .block3 h2{
+        padding: 8px 7px;
+       font-size: 10px;
+       }
+}
 
 
 
